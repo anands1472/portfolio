@@ -1,0 +1,52 @@
+@import "primeicons/primeicons.css";
+
+.card {
+    background-color: burlywood;
+}
+
+img {
+    border-radius: 50%;
+    width: -webkit-fill-available;
+}
+
+.imageClass {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-contant {
+    justify-items: center;
+}
+
+::ng-deep .image-contant .p-card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: 70%;
+}
+
+::ng-deep .image-contant .p-card-title {
+    font-size: 35px;
+    text-align: center;
+}
+
+::ng-deep .image-contant .p-card-content {
+    font-size: 25px;
+    text-align: center;
+}
+
+::ng-deep .image-contant .p-card-body {
+    align-items: center;
+}
+
+::ng-deep .download-button .p-button {
+    font-size: 30px;
+    width: 25rem;
+    height: 4rem;
+}
+
+::ng-deep .download-button .pi {
+    font-size: 30px;
+}

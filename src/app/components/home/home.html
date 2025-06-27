@@ -1,0 +1,30 @@
+<div class="container">
+    <p-card
+        [style]="{borderRadius:'0px',height:'51rem', background: 'burlywood',border: 'none',boxShadow: 'none', justifyContent:'center'}">
+
+
+        <div class="imageClass">
+            <p-card
+                [style]="{ width: '25rem', overflow: 'hidden',background:'transparent',border: 'none',boxShadow: 'none' }">
+                <ng-template #header>
+                    <img alt="Card" class="w-full" src="../../../assets/pic.jpg" />
+                </ng-template>
+
+            </p-card>
+            <p-card header="Hello, am Anand Pilli - Full Stack Developer" class="image-contant">
+                <p class="m-0">
+                    A versatile and adaptable developer proficient in both frontend and backend technologies, capable of
+                    designing, developing, and deploying complete web applications.
+                </p>
+                <ng-template #footer>
+                    <div class="flex gap-4 mt-1">
+                        <p-button label="Download Resume" icon="pi pi-download" iconPos="right" class="download-button">
+                            <i class="pi pi-download"></i>
+                        </p-button>
+
+                    </div>
+                </ng-template>
+            </p-card>
+        </div>
+    </p-card>
+</div>
